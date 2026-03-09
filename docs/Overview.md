@@ -1,6 +1,6 @@
 # transputation-lean — Overview
 
-**Purpose:** Machine-checked formalization of Paper 76 ( Formal Theory of Transputation) and interface layer for Paper 77 (DSAC realization).
+**Purpose:** Machine-checked formalization of Paper 76 (A Formal Theory of Transputation) and interface layer for Paper 77 (DSAC as a Realization of Transputation).
 
 ---
 
@@ -22,10 +22,11 @@ Abstract objects: framework wrappers, computation, choice, internality, diagonal
 
 Relationship to: deterministic computation, nondeterminism, oracle, interactive, hypercomputation.
 
-### Interface Layer
+### Interface Layer (Paper 77)
 
-- **Realization** — What an implementation must satisfy to count as transputation  
-- **DSAC** — Abstract DSAC realization schema (Paper 77)  
+- **Realization** — Six realization criteria; TransputationRealization structure  
+- **DSAC** — Abstract DSAC schema; dsac_witness_instantiates_realization; operationally_closed_implies_non_externalized; dsac_step_deterministic; witness_transport; ResidualBoundedAdmissibility  
+- **ScenarioWitnesses** — SATScenario, MaxSATScenario, MetricClosureScenario; sat/max_sat/metric_closure_scenario_fits_schema  
 
 ---
 
@@ -41,7 +42,9 @@ Relationship to: deterministic computation, nondeterminism, oracle, interactive,
 | Core/Definitions.lean | Transputation |
 | Theorems/*.lean | Main results |
 | Taxonomy/*.lean | TCS comparisons |
-| Interfaces/*.lean | Realization, DSAC |
+| Interfaces/Realization.lean | Realization criteria |
+| Interfaces/DSAC.lean | DSAC schema, theorems |
+| Interfaces/ScenarioWitnesses.lean | Scenario-class witnesses |
 
 ---
 

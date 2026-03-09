@@ -31,8 +31,10 @@ Transputation/
 ├── Core/       — Frameworks, Computation, Choice, Internality, Diagonal, Definitions
 ├── Theorems/   — ComputationSufficiency, ForcedAdjudication, DiagonalBarrierBridge, NoCollapse, Classification
 ├── Taxonomy/   — Nondeterminism, Oracle, Interactive, Hyper
-└── Interfaces/ — Realization, DSAC
+└── Interfaces/ — Realization, DSAC, ScenarioWitnesses
 ```
+
+Interfaces/Realization.lean defines the six realization criteria; Interfaces/DSAC.lean defines the DSAC schema and proves dsac_witness_instantiates_realization, operationally_closed_implies_non_externalized, dsac_step_deterministic, witness_transport; Interfaces/ScenarioWitnesses.lean provides SAT, Max-SAT, metric-closure scenario-class structures with fit theorems.
 
 ## Papers
 
