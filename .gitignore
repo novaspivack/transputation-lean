@@ -1,0 +1,16 @@
+# Lake
+.lake/
+lake-packages/
+
+# Build
+build/
+*.olean
+*.ilean
+*.trace
+
+# Editor
+*.swp
+*~
+
+# OS
+.DS_Store
