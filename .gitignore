@@ -14,3 +14,6 @@ build/
 
 # OS
 .DS_Store
+
+# Local scripts (not for repo)
+scripts/local/

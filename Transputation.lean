@@ -15,3 +15,4 @@ import Transputation.Theorems.NoCollapse
 import Transputation.Theorems.Classification
 import Transputation.Interfaces.Realization
 import Transputation.Interfaces.DSAC
+import Transputation.Interfaces.ScenarioWitnesses
