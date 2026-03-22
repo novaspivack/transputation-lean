@@ -1,5 +1,11 @@
 # transputation-lean — MANIFEST
 
+**Toolchain:** `leanprover/lean4:v4.29.0-rc3`  
+**Mathlib:** v4.29.0-rc3 (via `lakefile.lean`)  
+**Build:** `lake build` from this directory  
+**Root import:** `Transputation.lean`  
+**Last verified:** 2026-03-22 — matches `lean-toolchain` and Mathlib pin.
+
 **Program:** NEMS Suite  
 **Papers:** 76, 77  
 **Date:** March 2026  
