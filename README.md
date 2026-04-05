@@ -47,3 +47,6 @@ Interfaces/Realization.lean defines the six realization criteria; Interfaces/DSA
 
 - PAPERS_76_77_PLAN.md (NEMS_PAPERS/notes/ROADMAPS/)
 - CODING_PROTOCOLS.md
+<!-- NOVA_ZPO_ZENODO_SOFTWARE_BEGIN -->
+**Archival software (Zenodo):** https://doi.org/10.5281/zenodo.19429229
+<!-- NOVA_ZPO_ZENODO_SOFTWARE_END -->
