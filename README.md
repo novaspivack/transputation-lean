@@ -12,15 +12,11 @@ Machine-checked theorem artifact for **Paper 76: A Formal Theory of Transputatio
 - **nems-lean** (primary) — NemS, MFRR, Diagonal barrier, ChoicePoints, PSCBundle
 - **mathlib** (via nems-lean)
 
-Do **not** depend on: sentience-lean, phenomenology-lean.
-
 ## Build
 
-**Always build from the real path** (never from a long symlink path):
-
 ```bash
-cd ~/transputation-lean
 lake update
+lake exe cache get   # download pre-built Mathlib .olean files (strongly recommended)
 lake build
 ```
 
@@ -34,7 +30,7 @@ Transputation/
 └── Interfaces/ — Realization, DSAC, ScenarioWitnesses
 ```
 
-Interfaces/Realization.lean defines the six realization criteria; Interfaces/DSAC.lean defines the DSAC schema and proves dsac_witness_instantiates_realization, operationally_closed_implies_non_externalized, dsac_step_deterministic, witness_transport; Interfaces/ScenarioWitnesses.lean provides SAT, Max-SAT, metric-closure scenario-class structures with fit theorems.
+`Interfaces/Realization.lean` defines the six realization criteria; `Interfaces/DSAC.lean` defines the DSAC schema and proves `dsac_witness_instantiates_realization`, `operationally_closed_implies_non_externalized`, `dsac_step_deterministic`, `witness_transport`; `Interfaces/ScenarioWitnesses.lean` provides SAT, Max-SAT, metric-closure scenario-class structures with fit theorems.
 
 ## Papers
 
@@ -43,10 +39,11 @@ Interfaces/Realization.lean defines the six realization criteria; Interfaces/DSA
 | 76 | Formal theory; theorem spine |
 | 77 | DSAC realization; uses Interfaces |
 
-## Reference
+Papers are published on Zenodo — see [novaspivack.com/research](https://www.novaspivack.com/research) for DOI links.
 
-- PAPERS_76_77_PLAN.md (NEMS_PAPERS/notes/ROADMAPS/)
-- CODING_PROTOCOLS.md
+## Documentation
+
+See [MANIFEST.md](MANIFEST.md) for the module layout, theorem inventory, and proof-status accounting.
 <!-- NOVA_ZPO_ZENODO_SOFTWARE_BEGIN -->
 **Archival software (Zenodo):** https://doi.org/10.5281/zenodo.19429229
 <!-- NOVA_ZPO_ZENODO_SOFTWARE_END -->
