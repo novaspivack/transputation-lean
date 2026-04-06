@@ -1,5 +1,23 @@
 # transputation-lean
 
+
+## Research Program
+
+This repository is part of the **Reflexive Reality** research program by [Nova Spivack](https://www.novaspivack.com/).
+
+**What this formalizes:** Papers 76–77 of the NEMS suite (formal theory of transputation; DSAC as a realization of transputation).
+
+| Link | Description |
+|------|-------------|
+| [Research page](https://www.novaspivack.com/research/) | Full index of all papers, programs, and Lean archives |
+| [Full abstracts](https://novaspivack.github.io/research/abstracts/#nems-76) | Complete abstract for this library's papers |
+| [Zenodo program hub](https://doi.org/10.5281/zenodo.19429270) | Citable DOI hub for the NEMS program |
+
+All results are machine-checked in Lean 4 with a zero-sorry policy on proof targets.
+See [MANIFEST.md](MANIFEST.md) for the sorry audit (if present).
+
+---
+
 Machine-checked theorem artifact for **Paper 76: A Formal Theory of Transputation** and interface layer for **Paper 77: DSAC as a Realization of Transputation**.
 
 ## Role
